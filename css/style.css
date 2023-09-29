@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.banner-section{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.top-nav{
+    margin-bottom: 0px;
+    z-index: 1999;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.top-icon {
+    font-size: 2rem;
+}
+
+.yellow i{
+    color: #fdb62f;
+}
+
+.red i {
+    color: #fd4d40;
+}
+
+.section {
+    padding: 7rem 0;
+}
+
+.red-span {
+    color: #fd4d40 !important;
+}
+
+.cursive-font {
+    font-family: "Indie Flower", cursive !important; 
+}
+
+.card-body {
+ padding: 40px !important;
+ position: relative;
+ color: #fff;
+}
+
+.c-red {
+    background-color: #fd4d40 !important;
+}
+
+.c-yellow {
+    background-color: #fdb62f !important;
+}
+
+.c-green {
+    background-color: #16c3b0 !important;
+}
+
+.icon-cycle {
+    position: relative;
+    width: 80px;
+    margin: -70px auto 30px;
+    height: 80px;
+    display: block;
+    border-radius: 50%;
+}
+
+.c-red .icon-cycle {
+    background-color: #fd4d40;
+}
+
+.c-yellow .icon-cycle {
+    background-color: #fdb62f;
+}
+
+.c-green .icon-cycle {
+    background-color: #16c3b0;
+}
+
+.card .icon-cycle i{
+      color: #fff;
+      font-size: 2rem;
+      text-align: center;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%); 
+}
+
+.svg-box {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 80px;
+}
+
+.green-h5 {
+    color: #16c3b0;
+}
+
+.pricing .price {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.pricing .price::before{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    content: "";
+}
+
+.pricing .price span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 26px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.green .price {
+    background: #16c3b0;
+}
+
+.red .price {
+    background: #fd4d40;
+}
+
+.pricing-ul li{
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.pricing-ul li::before{
+    left: 0;
+    font-size: 20px;
+    top: -0.3rem;
+    font-family: "icomoon";
+    content: "\2713";
+    position: absolute;
+}
+
+.green li::before{
+    color: #16c3b0;
+}
+
+.red li::before{
+    color: #fd4d40;
+}
+
+.btn-green {
+    background: #16c3b0;
+    color: #fff;
+}
+
+.btn-red {
+    background: #fd4d40;
+    color: #fff;
+}
+
+.footer-section {
+    background: #343a40;
+    color: #fff;
+}
+
+hr {
+    background-color: #515355;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 30px 0 !important;
+    }
+}
+
+.numbers .text-teal {
+    color: #16c3b0;
+}
+
+.numbers .text-yellow {
+    color: #fdb62f;
+}
+
+.carousel-inner{
+    background-color: #DC3545;
+
+}
+
+.carousel-inner img {
+    width: 15vh;
+    height: 15vh;
+    top: 0%;
+    object-fit: cover;
+  }
+
+.carousel-indicators li{
+        background-color: rgb(214, 148, 148);
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50%;
+}
+.content-carousel h3,
+.content-carousel p{
+    color: white;
+}
+
+#button1 {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 140px;
+}
+
+#button2 {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 150px;
+}
+
+#button3{
+    background-color: #60a038;
+    border-color: #5a9635;
+    border-top-left-radius:25px ; 
+    border-bottom-right-radius:25px ; 
+    width: 140px;
+}
+
+#btn-price-1 {
+    width: 15vh;
+    border-top-left-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+    color: black;
+    background-color: #16c3b0;
+    border: #16c3b0;
+}
+
+#btn-price-2 {
+    width: 15vh;
+    border-top-left-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+    color: black;
+    background-color: #fd4d40;
+}
+
